@@ -1,0 +1,141 @@
+body {
+    font-family: "spline sans", sans-serif;
+
+    line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: orange;
+}
+
+
+
+img {
+    min-width: 100%;
+}
+
+.btn {
+    border-radius: 0;
+    padding: 14px 38px;
+}
+
+.btn-brand {
+    color: #fff;
+    font-weight: 500;
+    border-color: rgb(228, 132, 7);
+    background-color: rgb(228, 132, 7);
+}
+
+.btn-brand:hover {
+    border-color: rgb(192, 117, 19);
+    background-color: rgb(192, 117, 19);
+    color: #fff;
+}
+
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+/*Slide */
+
+.slide-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slide1.jpg);
+}
+
+.slide-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slide2.jpg);
+}
+
+#heroSlider h6::after,
+#heroSlider h6::before {
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background-color: #ffff;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+
+
+/*About*/
+
+#About .divider {
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #f58d17;
+
+}
+ 
+
+/*
+=====================================================================
+Menu 
+=====================================================================
+*/
+
+/*intro text*/
+
+.intro-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-text p {
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+
+#menu .nav-pills .nav-link {
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+#menu .nav-pills .nav-link.active {
+    background-color: #f58d17;
+    color: #fff;
+}
+
+
+.btn-orange {
+    color: #fff;
+    background-color: #f58d17; /* Couleur orange */
+    border-color: #f58d17; /* Bordure de couleur orange */
+}
+
+.btn-orange:hover {
+    color: #fff;
+    background-color: rgb(192, 117, 19); /* Couleur orange foncé au survol */
+    border-color: rgb(192, 117, 19); /* Bordure de couleur orange foncé au survol */
+}
+

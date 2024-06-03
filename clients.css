@@ -1,0 +1,15 @@
+.custom-btn:hover {
+    background-color: orange;
+    border-color: orange;
+    color: white;
+}
+
+
+/*table*/
+
+.data_table{
+    background: #fff;
+    padding: 15px;
+    box-shadow: 1px 3px 5px #aaa;
+    border-radius: 5px;
+}
