@@ -421,7 +421,7 @@
       </div>
 
       <div class="row ">
-        <div class="col-md-2 m-3">
+        <div class=" col-12 col-md-2 m-3">
           <video controls style="height: 345px;  border-radius: 5px;">
             <source src="video/video1.mp4" type="video/mp4">
             Your browser does not support the video tag.

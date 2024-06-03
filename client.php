@@ -83,9 +83,9 @@ if (isset($_POST['enregistrer_client'])) {
           <li class="nav-item">
             <a class="nav-link" href="commande.php">Enregistrer une commande</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="recette.php">Enregistrer une recette</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
